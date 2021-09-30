@@ -13,7 +13,7 @@ access file without build tools open terminal sudo apt updater
   
 ## Environment Setup
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to follow the  the following steps.
 
 step 1: open ubuntu terminal 
 `sudo apt update`
@@ -49,7 +49,7 @@ func main() {
 }
 ```
 
-step 8: run the go file by one of the methods 
+step 8: run the go file by one of the follwing methods 
 
  `go run hello.go`
 
@@ -105,7 +105,7 @@ back to ubuntu vm
  ```http
   from golang:latest 
   copy hello.go . 
-  cmd go run test.go
+  cmd go run hello.go
 ```
 ready to run Dockerfile image in Host(windows command prompt)
 
